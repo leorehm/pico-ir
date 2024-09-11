@@ -38,8 +38,8 @@ def main():
 
 def init_network(): -> network.WLAN
     # initialize network connection
-    ssid = "Brennpunkt Denhaide"
-    key = "03043399656737506518"
+    ssid = ""
+    key = ""
 
     wlan = network.WLAN(network.STA_IF)
     wlan.active(True)
